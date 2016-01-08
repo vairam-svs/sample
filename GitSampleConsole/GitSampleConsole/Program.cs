@@ -10,6 +10,13 @@ namespace GitSampleConsole
     {
         static void Main(string[] args)
         {
+            PrintSum(3, 4);
+            Console.Read();
+        }
+        private static void PrintSum(int a, int b)
+        {
+            Console.WriteLine("sum of a + b = {0}", a + b);
+            
         }
     }
 }
