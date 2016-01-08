@@ -11,6 +11,8 @@ namespace GitSampleConsole
         static void Main(string[] args)
         {
             Console.WriteLine("getting ready to make change, change not complete");
+            Console.WriteLine("Always start work from dev/other branch/not directly on master");
+            Console.WriteLine("Need creation of contribution document - excludes definition for release management complexity - FIFO code change to deploy methodology");
             PrintSum(3, 4);
             Console.Read();
         }
