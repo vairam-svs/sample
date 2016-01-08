@@ -11,7 +11,6 @@ namespace GitSampleConsole
         static void Main(string[] args)
         {
             Console.WriteLine("getting ready to make change, change not complete");
-            Console.Read();
             PrintSum(3, 4);
             Console.Read();
         }
